@@ -1,14 +1,18 @@
-import App from './App.jsx'
-import Page from './Page.jsx'
-
-const routes= [
+import Home from './Home/Home.jsx'
+import Shop from './Shop/Shop.jsx'
+import Cart from './Cart/Cart.jsx'
+const routes = [
   {
     path: "/",
-    element: <App />,
+    element: <Home/>,
   },
   {
-    path:'page',
-    element:<Page/>
+    path:'shop',
+    element:<Shop/>
+  },
+  {
+    path:'cart',
+    element:<Cart/>
   }
 ]
 
