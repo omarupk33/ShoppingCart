@@ -1,0 +1,23 @@
+.shop{
+    background-color: brown;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aliceblue;
+    width: 50vw;
+    height: 50vh;
+    color: pink;
+}
+
+.card{
+    background-color: green;
+    border: 1px solid floralwhite;
+    text-align: center;
+}
