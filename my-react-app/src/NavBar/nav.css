@@ -1,0 +1,6 @@
+.nav-list{
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+    
+}

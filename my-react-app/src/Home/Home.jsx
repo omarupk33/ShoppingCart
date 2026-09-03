@@ -1,24 +1,24 @@
 import { useState } from 'react'
-// Go through the children and use Link to go to a specific page
-import { Outlet, Link } from "react-router";
+import { Outlet, Link, useParams } from "react-router";
 import './home.css'
 import Header from './Header'
-import Main from './Main';
+import DefaultPage from '../DefaultPage/DefaultPage'
 import Footer from './Footer'
+import Shop from '../Shop/Shop';
+import Cart from '../Cart/Cart';
 function Home() {
 
-  return (
-    <div className='home-container'>
-    <Header>
-      </Header>
-
-    <Main>
-      </Main> 
-
-    <Footer>
-      </Footer> 
-    </div>
-  )
+    const {name} = useParams()  
+  
+    return (
+      <div className='home-container'>
+      <Header>
+        </Header>
+      <Outlet></Outlet>
+      <Footer>
+        </Footer> 
+      </div>
+    )
 }
 
 export default Home

@@ -1,9 +1,9 @@
 import Cards from './Cards.jsx'
 import './shop.css'
+import { Link } from "react-router"
 
 
 const Shop = ()=>{
-
 
 const shoppingList = [
   {

@@ -7,7 +7,7 @@ function Cards({itemList =[]}){
                 const info = <h3>{item.info}</h3>
 
                 return (
-                    <div className="card">
+                    <div className="card" key={item.name}>
                         {img}
                         {name}
                         {info}

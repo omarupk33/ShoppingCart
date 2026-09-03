@@ -1,10 +1,13 @@
+import { Link } from "react-router"
+import './cart.css'
+
 function Cart(){
     return (
-        <div>
-            Hello I'm a Cart 
-            {/* <Cards>
-            </Cards> */}
+    <div className="cart">
+        <div className="in-cart-items">
+            
         </div>
+    </div>
     )
 }
 
