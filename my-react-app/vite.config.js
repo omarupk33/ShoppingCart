@@ -7,7 +7,7 @@ export default defineConfig({
   test:{
     globals:true,
     environment: 'jsdom',
-    setupFiles: './tests/setup.js',
+    setupFiles: '/home/omar/Odin_project.py/ShoppingCort/my-react-app/src/tests/setup.js',
   }
 })
 

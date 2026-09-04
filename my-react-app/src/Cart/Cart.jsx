@@ -3,7 +3,7 @@ import './cart.css'
 
 function Cart(){
     return (
-    <div className="cart">
+    <div data-testid="cart-container" className="cart">
         <div className="in-cart-items">
             
         </div>

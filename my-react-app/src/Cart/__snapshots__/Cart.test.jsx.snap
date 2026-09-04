@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cart Component > renders Cart correctly 1`] = `
+<div>
+  <div
+    class="cart"
+    data-testid="cart-container"
+  >
+    <div
+      class="in-cart-items"
+    />
+  </div>
+</div>
+`;
