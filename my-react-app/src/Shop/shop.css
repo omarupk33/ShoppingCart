@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.cards-container{
+.items-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: aliceblue;
@@ -16,7 +16,7 @@
     color: pink;
 }
 
-.card{
+.item{
     background-color: green;
     border: 1px solid floralwhite;
     text-align: center;

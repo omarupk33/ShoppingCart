@@ -1,0 +1,435 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Shop Component > renders Shop correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="shop"
+      >
+        <div
+          class="items-container"
+          role="region"
+        >
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Apple
+               image
+            </h3>
+            <h3>
+               
+              Apple
+            </h3>
+            <h3>
+              Fresh red fruit, sold by the pound.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Milk
+               image
+            </h3>
+            <h3>
+               
+              Milk
+            </h3>
+            <h3>
+              Whole cow's milk, 1-gallon carton.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Bread
+               image
+            </h3>
+            <h3>
+               
+              Bread
+            </h3>
+            <h3>
+              Sliced whole wheat bread loaf.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Eggs
+               image
+            </h3>
+            <h3>
+               
+              Eggs
+            </h3>
+            <h3>
+              A dozen large grade-A eggs.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Coffee
+               image
+            </h3>
+            <h3>
+               
+              Coffee
+            </h3>
+            <h3>
+              Medium roast ground coffee beans.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Cheese
+               image
+            </h3>
+            <h3>
+               
+              Cheese
+            </h3>
+            <h3>
+              A french Cheese made of Lamp's milk.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="shop"
+      >
+        <div
+          class="items-container"
+          role="region"
+        >
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Apple
+               image
+            </h3>
+            <h3>
+               
+              Apple
+            </h3>
+            <h3>
+              Fresh red fruit, sold by the pound.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Milk
+               image
+            </h3>
+            <h3>
+               
+              Milk
+            </h3>
+            <h3>
+              Whole cow's milk, 1-gallon carton.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Bread
+               image
+            </h3>
+            <h3>
+               
+              Bread
+            </h3>
+            <h3>
+              Sliced whole wheat bread loaf.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Eggs
+               image
+            </h3>
+            <h3>
+               
+              Eggs
+            </h3>
+            <h3>
+              A dozen large grade-A eggs.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Coffee
+               image
+            </h3>
+            <h3>
+               
+              Coffee
+            </h3>
+            <h3>
+              Medium roast ground coffee beans.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+          <div
+            class="item"
+          >
+            <h3>
+               
+              Cheese
+               image
+            </h3>
+            <h3>
+               
+              Cheese
+            </h3>
+            <h3>
+              A french Cheese made of Lamp's milk.
+            </h3>
+            <button>
+              Buy
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="shop"
+    >
+      <div
+        class="items-container"
+        role="region"
+      >
+        <div
+          class="item"
+        >
+          <h3>
+             
+            Apple
+             image
+          </h3>
+          <h3>
+             
+            Apple
+          </h3>
+          <h3>
+            Fresh red fruit, sold by the pound.
+          </h3>
+          <button>
+            Buy
+          </button>
+        </div>
+        <div
+          class="item"
+        >
+          <h3>
+             
+            Milk
+             image
+          </h3>
+          <h3>
+             
+            Milk
+          </h3>
+          <h3>
+            Whole cow's milk, 1-gallon carton.
+          </h3>
+          <button>
+            Buy
+          </button>
+        </div>
+        <div
+          class="item"
+        >
+          <h3>
+             
+            Bread
+             image
+          </h3>
+          <h3>
+             
+            Bread
+          </h3>
+          <h3>
+            Sliced whole wheat bread loaf.
+          </h3>
+          <button>
+            Buy
+          </button>
+        </div>
+        <div
+          class="item"
+        >
+          <h3>
+             
+            Eggs
+             image
+          </h3>
+          <h3>
+             
+            Eggs
+          </h3>
+          <h3>
+            A dozen large grade-A eggs.
+          </h3>
+          <button>
+            Buy
+          </button>
+        </div>
+        <div
+          class="item"
+        >
+          <h3>
+             
+            Coffee
+             image
+          </h3>
+          <h3>
+             
+            Coffee
+          </h3>
+          <h3>
+            Medium roast ground coffee beans.
+          </h3>
+          <button>
+            Buy
+          </button>
+        </div>
+        <div
+          class="item"
+        >
+          <h3>
+             
+            Cheese
+             image
+          </h3>
+          <h3>
+             
+            Cheese
+          </h3>
+          <h3>
+            A french Cheese made of Lamp's milk.
+          </h3>
+          <button>
+            Buy
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

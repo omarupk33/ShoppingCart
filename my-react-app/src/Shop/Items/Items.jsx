@@ -1,13 +1,13 @@
-function Cards({itemList =[]}){
+function Items({itemList =[]}){
     return (
-        <div className="cards-container">
+        <div role="region" className="items-container">
             {itemList.map((item)=>{
                 const img = <h3> {item.name} image</h3>
                 const name = <h3> {item.name}</h3>
                 const info = <h3>{item.info}</h3>
 
                 return (
-                    <div className="card" key={item.name}>
+                    <div className="item" key={item.name}>
                         {img}
                         {name}
                         {info}
@@ -26,4 +26,4 @@ function Cards({itemList =[]}){
     )
 }
 
-export default Cards
+export default Items

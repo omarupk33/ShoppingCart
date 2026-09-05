@@ -1,5 +1,5 @@
 import { Link } from "react-router"
-import Nav from '../NavBar/Nav'
+import Nav from './NavBar/Nav'
 function Header(){
 
     return (

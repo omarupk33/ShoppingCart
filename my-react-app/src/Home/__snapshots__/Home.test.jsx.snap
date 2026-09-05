@@ -1,0 +1,52 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home Component > renders Home correctly 1`] = `
+<div>
+  <div
+    class="home-container"
+  >
+    <header
+      class="header"
+    >
+      <h1>
+        Doctorina
+      </h1>
+      <nav
+        class="main-nav"
+      >
+        <ul
+          class="nav-list"
+        >
+          <li>
+            <a
+              data-discover="true"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              data-discover="true"
+              href="/Shop"
+            >
+              Shop
+            </a>
+          </li>
+          <li>
+            <a
+              data-discover="true"
+              href="/Cart"
+            >
+              Cart
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <footer>
+      All rights belong to Omar
+    </footer>
+  </div>
+</div>
+`;

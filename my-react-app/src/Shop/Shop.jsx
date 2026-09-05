@@ -1,4 +1,5 @@
-import Cards from './Cards.jsx'
+import Items from './Items/Items.jsx';
+import Cards from './Items/Items.jsx'
 import './shop.css'
 import { Link } from "react-router"
 
@@ -35,7 +36,7 @@ const shoppingList = [
 
     return (
     <div className='shop'>
-       <Cards itemList={shoppingList}></Cards>
+       <Items itemList={shoppingList}></Items>
     </div>
     )
 } 
