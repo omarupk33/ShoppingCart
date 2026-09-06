@@ -1,7 +1,7 @@
 import Home from './Home/Home.jsx'
-import Shop from './Shop/Shop.jsx'
-import Cart from './Cart/Cart.jsx'
-import DefaultPage from './DefaultPage/DefaultPage.jsx'
+import Shop from './Pages/Shop/Shop.jsx'
+import Cart from './Pages/Cart/Cart.jsx'
+import DefaultPage from './Pages/DefaultPage/DefaultPage.jsx'
 
 const routes = [
   {

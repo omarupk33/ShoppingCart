@@ -2,7 +2,7 @@ import {describe, it, expect} from 'vitest'
 import {render, screen} from '@testing-library/react'
 import DefaultPage from './DefaultPage'
 import { MemoryRouter, RouterProvider } from 'react-router'
-import routes from '../routes'
+import routes from '../../routes'
 
 describe('DefaultPage Component', ()=>{
     it('renders DefaultPage correctly', ()=>{

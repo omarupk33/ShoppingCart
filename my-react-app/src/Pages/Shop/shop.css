@@ -1,5 +1,5 @@
 .shop{
-    background-color: brown;
+    background-color:palegoldenrod;
     width: 100vw;
     height: 100vh;
     display:flex;
@@ -11,13 +11,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: aliceblue;
-    width: 50vw;
-    height: 50vh;
-    color: pink;
 }
 
 .item{
-    background-color: green;
+    background-color: teal;
     border: 1px solid floralwhite;
     text-align: center;
+}
+
+img{
+    width: 25%;
+    height: 35%;
 }
