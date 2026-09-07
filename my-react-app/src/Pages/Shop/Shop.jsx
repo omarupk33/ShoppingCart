@@ -1,11 +1,10 @@
 import Items from './Items/Items.jsx';
-import Cards from './Items/Items.jsx'
 import './shop.css'
-import { Link } from "react-router"
 
 
 const Shop = ()=>{
 
+  
 const shoppingList = [
   {
     name: "Apple",
@@ -43,7 +42,7 @@ const shoppingList = [
 
     return (
     <div className='shop'>
-       <Items itemList={shoppingList}></Items>
+       <Items itemList={shoppingList} ></Items>
     </div>
     )
 } 

@@ -1,4 +1,16 @@
+import { useOutletContext } from 'react-router';
+
+
 function Items({itemList =[]}){
+    
+
+  const {inCart, setInCart} = useOutletContext()
+
+  const updateCart = (i) => {
+    setInCart([...inCart, i])
+    console.log(i)
+  }
+    
     return (
         <div role="region" className="items-container">
             {itemList.map((item)=>{
@@ -12,9 +24,7 @@ function Items({itemList =[]}){
                         {name}
                         {info}
 
-                        <button onClick={(e)=>{
-                            e.preventDefault()
-                        }}>
+                        <button onClick={()=>{updateCart(name)}}>
                             Buy
                         </button>
                         
