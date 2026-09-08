@@ -16,7 +16,7 @@ function DefaultPage(){
                 insects are offered while they are in their BEST before they are picked for consumption.
             </p>
             </div>
-            <div>
+            <div className='offer-text'>
                 <h2>
                     What Do We Offer?
                 </h2>

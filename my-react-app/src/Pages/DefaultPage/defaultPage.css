@@ -4,14 +4,20 @@ main{
     flex-direction: column;
     width: 100vw;
     flex: 1 1 100%;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     background-color:palegoldenrod;
 }
 
-div.intro{
+div{
     border: 1px solid rgb(61, 7, 1);
+    text-align: center; 
 }
+
+.offer-text{
+    max-width: 50vw;
+}
+
 
 p{
     

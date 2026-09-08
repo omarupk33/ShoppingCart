@@ -1,6 +1,6 @@
 import './nav.css'
 import { Link } from 'react-router'
-function Nav(){
+function Nav({numberOfItems}){
 
     const navBarList = ['Home', 'Shop', 'Cart']
 
@@ -12,6 +12,9 @@ function Nav(){
                         <Link to={e === 'Home' ? '/' : e}>{e}</Link>
                     </li>
                 })}
+                <div>
+                    {numberOfItems}
+                </div>
             </ul>
         </nav>
     )
