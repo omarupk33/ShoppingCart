@@ -1,35 +1,27 @@
-import { useOutletContext } from 'react-router';
+import { useOutletContext } from 'react-router'
 
 
-function Items({itemList =[]}){    
+function Items({shoppingList =[]}){    
 
   const {inCart, setInCart} = useOutletContext()
   const updateCart = (i) => {
-        setInCart([...inCart, i])
-    }
+        setInCart([...inCart, i])}
     
     return (
         <div role="region" className="items-container">
-            {itemList.map((item)=>{
+            {shoppingList.map((item)=>{
                 const image = <img alt="img" src={item.image}></img>
                 const name = <h3> {item.name}</h3>
                 const info = <h3>{item.info}</h3>
-
                 
                 return (
                     <div className="item" key={item.name}>
                         {image}
                         {name}
                         {info}
-
-                    <button onClick={()=>{updateCart(<div className="item">
-                            {image}
-                            {name}
-                            {info}
-
-                    </div>)}}>
+                    <button onClick={()=>{updateCart(item)}}>
                             Buy
-                        </button>
+                    </button>
 
                     </div>
                 )

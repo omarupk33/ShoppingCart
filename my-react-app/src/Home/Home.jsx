@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
-import { Outlet,} from "react-router";
+import { Outlet,} from "react-router"
 import './home.css'
 import Header from './Header'
 import Footer from './Footer'
 
 function Home() {
 
-    const [inCart, setInCart] = useState([]);
+    const [inCart, setInCart] = useState([])
     const[numberOfItems, setNumberOfItems] = useState(0)
         useEffect(()=>{
         setNumberOfItems(inCart.length)

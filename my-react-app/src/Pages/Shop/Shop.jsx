@@ -42,7 +42,7 @@ const shoppingList = [
 
     return (
     <div className='shop'>
-       <Items itemList={shoppingList} ></Items>
+       <Items shoppingList={shoppingList} ></Items>
     </div>
     )
 } 
