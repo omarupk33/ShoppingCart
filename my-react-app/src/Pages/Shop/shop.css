@@ -19,6 +19,13 @@
     text-align: center;
 }
 
+.item-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+
 img{
     width: 25%;
     height: 35%;
