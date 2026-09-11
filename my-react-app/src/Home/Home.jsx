@@ -7,7 +7,8 @@ import Footer from './Footer'
 function Home() {
 
     const [inCart, setInCart] = useState([])
-    const[numberOfItems, setNumberOfItems] = useState(0)
+    const [itemCount, setItemCount] = useState({})
+    const [numberOfItems, setNumberOfItems] = useState(0)
         useEffect(()=>{
         setNumberOfItems(inCart.length)
         }, [inCart])
@@ -16,7 +17,7 @@ function Home() {
       <div className='home-container'>
       <Header numberOfItems={numberOfItems}>
         </Header>
-      <Outlet context={{inCart, setInCart, numberOfItems, setNumberOfItems}}></Outlet>
+      <Outlet context={{inCart, setInCart, numberOfItems, setNumberOfItems, itemCount, setItemCount}}></Outlet>
       <Footer>
         </Footer> 
       </div>
