@@ -6,11 +6,7 @@ function Item({name, image, info, item}){
     const [numItem, setNumItem] = useState(1)
 
 
-    const updateCart = (item) => {
-    // This if condition is not working anymore 
-    if(!inCart.includes(item))
-    setInCart([...inCart, item])
-    }
+
 
     const itemUp = ()=>{
     setNumItem(numItem+1)
@@ -23,6 +19,10 @@ function Item({name, image, info, item}){
     
     }
 
+    const updateCart = (item) => {
+    inCart.map(e=>console.log(e))
+        setInCart([...inCart, item])
+    }
     
 
     return (
