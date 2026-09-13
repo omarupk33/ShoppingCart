@@ -11,7 +11,27 @@ describe('DefaultPage Component', ()=>{
         <DefaultPage/>
         </MemoryRouter>)
         
+
+
         expect(container).toMatchSnapshot()
+
+    })
+
+
+
+    it('The Shop link is working', async ()=>{
+        
+        const {container} = render(
+        <MemoryRouter>
+        <DefaultPage/>
+        </MemoryRouter>)
+        
+        const shopLink = screen.getByRole('link', {name:/Shop now/i})
+
+        expect(shopLink).toBeInTheDocument()
+        expect(shopLink).toBeVisible()
+        expect(shopLink).toHaveAttribute('href','/shop')
+
     })
     
 })

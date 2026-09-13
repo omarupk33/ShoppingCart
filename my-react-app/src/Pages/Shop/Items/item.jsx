@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useOutletContext } from "react-router"
 
 function Item({name, image, info, item}){
-    const {inCart, setInCart, itemCount, setItemCount} = useOutletContext()
+    const { setInCart, itemCount, setItemCount} = useOutletContext()
     const [numItem, setNumItem] = useState(1)
 
 
@@ -20,8 +20,15 @@ function Item({name, image, info, item}){
     }
 
     const updateCart = (item) => {
-    inCart.map(e=>console.log(e))
-        setInCart([...inCart, item])
+    
+        setInCart((prev)=>{
+            if(prev.some((cartItem) => cartItem.name === item.name)){
+                return prev
+            }
+            else{
+                return [...prev, item]
+            }
+        })
     }
     
 
@@ -36,7 +43,7 @@ function Item({name, image, info, item}){
             <button onClick={itemUp}>{'>'}</button>
             </div>
         <button onClick={()=>{updateCart(item)}}>
-        Buy
+        Add To Cart
         </button>
         </div>
     )

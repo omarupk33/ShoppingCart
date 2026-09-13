@@ -17,16 +17,16 @@ function Cart(){
         <div className="in-cart-items">
             {inCart.map(item=>{
                 const image = <img alt="img" src={item.image}></img>
-                const name = <h3>{item.name}</h3>
-                const info = <h3>{item.info}</h3>
-                const deleteButton  = <button onClick={()=>{deleteItem(item)}}>X</button>
-                const count =  <h3>{itemCount[item.name]}</h3>
+                const name = <title>{item.name}</title>
+                const info = <p>{item.info}</p>
+                const count =<p>{itemCount[item.name]}</p>
+                const deleteButton  = <button className='deleteBtn' onClick={()=>{deleteItem(item)}}>X</button>
             return <div>
                 {image}
                 {name}
                 {info}
-                {deleteButton}
                 {count}
+                {deleteButton}
                 </div>
             })}
         </div>

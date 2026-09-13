@@ -32,6 +32,7 @@ exports[`Nav Component > renders Nav correctly 1`] = `
           Cart
         </a>
       </li>
+      <div />
     </ul>
   </nav>
 </div>
