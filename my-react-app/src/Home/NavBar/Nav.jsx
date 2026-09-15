@@ -12,7 +12,7 @@ function Nav({numberOfItems}){
                         <Link to={e === 'Home' ? '/' : e}>{e}</Link>
                     </li>
                 })}
-                <div>
+                <div role='counter'>
                     {numberOfItems}
                 </div>
             </ul>

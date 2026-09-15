@@ -13,4 +13,22 @@ describe('Home Component', ()=>{
         )
         expect(container).toMatchSnapshot()
     })  
+
+    it('Header Nav works Correctly', ()=>{
+        const {container} = render(
+            <MemoryRouter>
+            <Home/>
+            </MemoryRouter>
+        )
+
+        const links = screen.getAllByRole('link')
+
+        expect(links.length).toEqual(3)
+        expect(links[0].textContent).toBe('Home')
+        expect(links[1].textContent).toBe('Shop')
+        expect(links[2].textContent).toBe('Cart')
+
+    })  
+
+
 })

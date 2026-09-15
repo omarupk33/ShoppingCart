@@ -32,6 +32,10 @@ describe('Nav Component', ()=>{
         const cart = AllNavigationBtns[2]
         expect(cart.textContent).toBe('Cart')
         expect(cart).toBeInTheDocument()
-    
+    })
+    it('Counter exists',()=>{
+        render(<MemoryRouter><Nav></Nav></MemoryRouter>)
+        const counter = screen.getByRole('counter')
+        expect(counter).toBeDefined()
     })
 })

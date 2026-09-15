@@ -44,7 +44,9 @@ exports[`Cart Component > renders with outlet context 1`] = `
                   Cart
                 </a>
               </li>
-              <div>
+              <div
+                role="counter"
+              >
                 0
               </div>
             </ul>
@@ -104,7 +106,9 @@ exports[`Cart Component > renders with outlet context 1`] = `
                 Cart
               </a>
             </li>
-            <div>
+            <div
+              role="counter"
+            >
               0
             </div>
           </ul>

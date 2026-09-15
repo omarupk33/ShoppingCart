@@ -41,7 +41,9 @@ exports[`Home Component > renders Home correctly 1`] = `
               Cart
             </a>
           </li>
-          <div>
+          <div
+            role="counter"
+          >
             0
           </div>
         </ul>
