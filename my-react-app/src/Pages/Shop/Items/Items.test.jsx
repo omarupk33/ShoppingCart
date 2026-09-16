@@ -4,9 +4,20 @@ import userEvent from "@testing-library/user-event";
 import Items from './Items';
 import Item from './item';
 
-import { MemoryRouter, Routes } from 'react-router';
+import { MemoryRouter, Routes} from 'react-router';
+
+
+
+    vi.mock('react-router', async (importOriginal)=>{
+        const actual = importOriginal()
+
+        return { ...actual,MemoryRouter: ({ children }) => <div>{children}</div>,useOutletContext: ()=> ({ setInCart:[], itemCount:[], setItemCount:[]})}
+        
+    })
 
 describe('Items Component', ()=>{
+
+
 
     it('Items renders correctly', ()=>{
         const container = render(<Items/>)
@@ -14,10 +25,11 @@ describe('Items Component', ()=>{
     })
 
     it('Shop items are on screen', ()=>{
+
         render(<MemoryRouter>
-            <Item></Item>
+            <Item role={'region'} ></Item>
         </MemoryRouter>)
-        const card = screen.getByRole('region', {name:'Apple'})
+        const card = screen.getByRole('heading',{ name :''})
 
         expect(card.textContent).toBe('Apple')
 
