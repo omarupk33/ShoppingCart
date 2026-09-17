@@ -10,12 +10,6 @@ exports[`Items Component > Items renders correctly 1`] = `
         role="region"
       />
     </div>
-    <div>
-      <div
-        class="items-container"
-        role="region"
-      />
-    </div>
   </body>,
   "container": <div>
     <div

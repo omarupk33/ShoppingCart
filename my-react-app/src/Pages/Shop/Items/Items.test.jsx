@@ -11,7 +11,8 @@ import { MemoryRouter, Routes} from 'react-router';
     vi.mock('react-router', async (importOriginal)=>{
         const actual = importOriginal()
 
-        return { ...actual,MemoryRouter: ({ children }) => <div>{children}</div>,useOutletContext: ()=> ({ setInCart:[], itemCount:[], setItemCount:[]})}
+        return { ...actual,MemoryRouter: ({ children }) => <div>{children}</div>,
+        useOutletContext: ()=> ({ setInCart:()=>{}, itemCount:[], setItemCount:()=>{}})}
         
     })
 
@@ -24,14 +25,28 @@ describe('Items Component', ()=>{
         expect(container).toMatchSnapshot()
     })
 
-    it('Shop items are on screen', ()=>{
+    it('Shop Elements are working properly', ()=>{    
+
 
         render(<MemoryRouter>
-            <Item role={'region'} ></Item>
+            <Item name={'Apple'} info={'delicious apple'} image={''} 
+                number={1} item={{}}></Item>
         </MemoryRouter>)
-        const card = screen.getByRole('heading',{ name :''})
 
-        expect(card.textContent).toBe('Apple')
+        // Solve this
+        const title = screen.getByRole('heading', {name:'Apple'})
+
+        expect(title.textContent
+        ).toBe('Apple')
+
+        const info = screen.getByRole('heading', {name:'delicious apple'})
+
+        expect(info.textContent
+        ).toBe('delicious apple')
+
+        const CartBtn = screen.getByRole('button', {name:"Add To Cart"})
+        expect(CartBtn).toBeInTheDocument()
+
 
     })
 

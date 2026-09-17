@@ -35,7 +35,7 @@ function Item({name, image, info, item}){
     return (
         <div className="item" key={name}>
         <img alt="img" src={image}></img>
-        <h3> {name}</h3>
+        <h3>{name}</h3>
         <h3>{info}</h3>
             <div className="item-num">
             <button onClick={itemDown}>{'<'}</button>

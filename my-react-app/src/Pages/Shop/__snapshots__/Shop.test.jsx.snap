@@ -67,7 +67,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
                 src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Apple%20fruit.jpg"
               />
               <h3>
-                 
                 Apple
               </h3>
               <h3>
@@ -98,7 +97,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
                 src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Milk%20glass.jpg"
               />
               <h3>
-                 
                 Milk
               </h3>
               <h3>
@@ -129,7 +127,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
                 src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Bread%20loaf.jpg"
               />
               <h3>
-                 
                 Bread
               </h3>
               <h3>
@@ -160,7 +157,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
                 src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Egg.jpg"
               />
               <h3>
-                 
                 Eggs
               </h3>
               <h3>
@@ -191,7 +187,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
                 src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Coffee%20Cup.jpg"
               />
               <h3>
-                 
                 Coffee
               </h3>
               <h3>
@@ -222,7 +217,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
                 src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Cheese.jpg"
               />
               <h3>
-                 
                 Cheese
               </h3>
               <h3>
@@ -316,7 +310,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
               src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Apple%20fruit.jpg"
             />
             <h3>
-               
               Apple
             </h3>
             <h3>
@@ -347,7 +340,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
               src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Milk%20glass.jpg"
             />
             <h3>
-               
               Milk
             </h3>
             <h3>
@@ -378,7 +370,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
               src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Bread%20loaf.jpg"
             />
             <h3>
-               
               Bread
             </h3>
             <h3>
@@ -409,7 +400,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
               src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Egg.jpg"
             />
             <h3>
-               
               Eggs
             </h3>
             <h3>
@@ -440,7 +430,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
               src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Coffee%20Cup.jpg"
             />
             <h3>
-               
               Coffee
             </h3>
             <h3>
@@ -471,7 +460,6 @@ exports[`Shop Component > renders Shop correctly 1`] = `
               src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Cheese.jpg"
             />
             <h3>
-               
               Cheese
             </h3>
             <h3>
